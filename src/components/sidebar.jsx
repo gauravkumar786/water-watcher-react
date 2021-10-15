@@ -12,8 +12,8 @@ class Sidebar extends Component {
                     <li className="nav-item submenu">
                         <a className="nav-link" data-toggle="collapse" data-target="#orders"><i className="fa fa-book"></i>Orders <i className="fa fa-angle-down pull-right" aria-hidden="true"></i></a>
                         <ul className="list-unstyled flex-column collapse" id="orders" aria-expanded="false">
-                            <li className="nav-item"><NavLink className="nav-link" to="pending-orders.php"><em className="sub_icon"><i className="fa fa-minus"></i></em>Pending Orders</NavLink></li>
-                            <li className="nav-item"><NavLink className="nav-link" to="completed-orders.php"><em className="sub_icon"><i className="fa fa-minus"></i></em>Completed Orders</NavLink></li>
+                            <li className="nav-item"><NavLink to="/orders/pending" className="nav-link"><em className="sub_icon"><i className="fa fa-minus"></i></em>Pending Orders</NavLink></li>
+                            <li className="nav-item"><NavLink to="/orders/completed" className="nav-link"><em className="sub_icon"><i className="fa fa-minus"></i></em>Completed Orders</NavLink></li>
                         </ul>
                     </li>
                     <li>
